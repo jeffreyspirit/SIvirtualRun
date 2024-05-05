@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Table Data Filter</title>
+</head>
+<body>
+
+<input type="text" id="input1" placeholder="Enter data 1">
+<input type="text" id="input2" placeholder="Enter data 2">
+<button onclick="filterTable()">Search</button>
+
+<div id="tableContainer" style="display: none;">
+  <table id="dataTable" border="1">
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>Emma</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>Michael</td>
+      <td>35</td>
+    </tr>
+  </table>
+</div>
+
+<div id="filteredData" style="display: none;"></div>
+
+<script>
+  function filterTable() {
+    var input1 = document.getElementById("input1").value.toLowerCase();
+    var input2 = document.getElementById("input2").value.toLowerCase();
+    var table = document.getElementById("dataTable");
+    var rows = table.getElementsByTagName("tr");
+
+    for (var i = 1; i < rows.length; i++) {
+      var cells = rows[i].getElementsByTagName("td");
+      var name = cells[0].textContent.toLowerCase();
+      var age = cells[1].textContent.toLowerCase();
+      if (name.includes(input1) && age.includes(input2)) {
+        rows[i].style.display = "";
+      } else {
+        rows[i].style.display = "none";
+      }
+    }
+
+    document.getElementById("tableContainer").style.display = "block";
+    document.getElementById("filteredData").style.display = "block";
+  }
+</script>
+
+</body>
+</html>
