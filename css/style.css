@@ -57,10 +57,10 @@ h1 span,
 h2 span,
 h3 span,
 h4 span {
-	color: #F13647;
+	color: ##40e0d0;
 }
 .colored {
-	color: #E45454;
+	color: #26ab9e;
 }
 a {
 	color: #55acee;
@@ -350,7 +350,8 @@ background-color: #FFFFFF;}
 text-align:center;
 }
 .hero-caption p{
-color: #000;
+
+color: #000;
 }
  .fa-angle-down {
     position: absolute;
