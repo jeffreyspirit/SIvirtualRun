@@ -57,7 +57,7 @@ h1 span,
 h2 span,
 h3 span,
 h4 span {
-	color: ##40e0d0;
+	color: #40e0d0;
 }
 .colored {
 	color: #26ab9e;
@@ -115,7 +115,7 @@ blockquote {
     background-color: #FFF;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #C12331;
+    background-color: #40e0d0;
 }
 /* Layout
 ----------------------------------------------------------------------------- */
@@ -445,12 +445,12 @@ h4.heading {
 }
 .btn-default {
 	color: #FFFFFF;
-	background: #E45454;
+	background: #e45454;
 	border: 0;
 }
 .btn-default:hover {
 	color: #ffffff;
-	background-color: #E14343;
+	background-color: #32966b;
 	border: 0;
 }
 .media-left, .media > .pull-left {
