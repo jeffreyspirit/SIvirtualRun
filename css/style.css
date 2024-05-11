@@ -165,7 +165,7 @@ blockquote {
 	padding: 40px 0;
 }
 .subfooter a {
-color: #F13647;
+color: #40e0d0;
 }
 .section {
 	/* background-color: #ffffff; */
@@ -183,7 +183,7 @@ color: #F13647;
 }
 .btn-primary {
 color: #fff;
-background-color: #F13647;
+background-color: #40e0d0;
 border:0px;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
@@ -206,7 +206,7 @@ border:0px;
 .transprant-bg h4,
 .transprant-bg h5,
 .transprant-bg h6 {
-	color: #F13647;
+	color: #40e0d0;
 }
 .default-bg blockquote footer,
 .transprant-bg blockquote footer {
@@ -263,7 +263,7 @@ border:0px;
 .caption-data h1 span {font-size: inherit; line-height: inherit; font-weight: inherit;}
 .caption-data h3{line-height:34px;font-size: 30px;}
 button.cta-button.btn-light, button.cta-button.btn-dark, .contact-form button.cta-button, button.cta-button.btn-default {
-background: #F13647;
+background: #40e0d0;
 }
 button.cta-button {
 font-size: 16px;
@@ -372,7 +372,7 @@ color: #000;
     border-color: #ddd;
 }
 .panel-heading h3, .panel-title{
-color: #F13647;
+color: #40e0d0;
 }
 .panel {
     margin-bottom: 20px;
@@ -396,7 +396,7 @@ color: #F13647;
 .box-services .icon {
   text-align: center;
   font-size: 25px;
-  color: #F13647;
+  color: #40e0d0;
 }
 .box-services p {
   color: #000000;
@@ -794,7 +794,7 @@ background-color: #D7D7D7;border-radius: 0;color: #fff;}
 	}
 .fixed-header-on .header , .navbar-fixed-top{
     padding: 5px 0;
-    background-color: #F13647;
+    background-color: #40e0d0;
 }
 	.banner-caption h1{
 	font-size:23px;
@@ -814,7 +814,7 @@ background-color: #D7D7D7;border-radius: 0;color: #fff;}
 ----------------------------------------------------------------------------- */
 .fixed-header-on .header {
 	padding: 5px 0;
-	background-color: #F13647;
+	background-color: #40e0d0;
 }
 .fixed-header-on .brand {
 	font-size: 24px;
