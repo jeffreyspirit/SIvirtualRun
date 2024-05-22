@@ -278,13 +278,15 @@ background: #40e0d0;
 button.cta-button {
 font-size: 16px;
 line-height: 16px;
-
+  
 padding: 18px 42px;
 border-radius: 0;
 font-family: 'Raleway';
 font-weight: 600;
 transition: background 0.3s, border-color 0.3s;
 margin-top:20px;
+@media (max-width: 767px) { /* Adjust breakpoint as needed */
+    width: 100%; /* Set width to 100% on smaller screens */
 }
 button.cta-button:hover{
 background:#fff;
