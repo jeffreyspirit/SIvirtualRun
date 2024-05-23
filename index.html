@@ -249,30 +249,47 @@
 		<!-- section end -->
 		
 		<!-- section start -->
+
 		<head>
 		    <meta charset="UTF-8">
 		    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		    <h1>Leaderboard</h1>
+		    <title>Embedded Charts</title>
 		    <style>
-		        .iframe-container {
+		        body {
 		            display: flex;
 		            flex-direction: column;
 		            align-items: center;
-		            gap: 5px; /* Space between the charts */
+		            margin: 0;
+		            font-family: Arial, sans-serif;
+		        }
+		        h1 {
+		            text-align: center;
 		            margin-top: 20px;
+		            width: 100%;
+		        }
+		        .iframe-container {
+		            display: flex;
+		            justify-content: center;
+		            width: 100%;
+		            gap: 20px; /* Space between the charts */
+		            margin: 20px 0; /* Vertical margin for the container */
 		        }
 		        iframe {
-		            width: 80%; /* Adjust the width as needed */
-		            height: 500px; /* Adjust the height as needed */
+		            width: 49%; /* Adjust the width to fit both iframes side by side */
+		            height: 80vh; /* Adjust the height as needed */
 		            border: none;
 		        }
 		    </style>
 		</head>
 		<body>
+		    <h1>Leaderboard</h1>
 		    <div class="iframe-container">
 		        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQTGBQtp165hMg7nHGF6JNSYgAeWLCMqV0hSjuHXZJysHHZh2-Cfd7x3ZoxRI-f2NwNWJIk4nPJs0Dd/pubchart?oid=1435423078&format=interactive"></iframe>
 		        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQTGBQtp165hMg7nHGF6JNSYgAeWLCMqV0hSjuHXZJysHHZh2-Cfd7x3ZoxRI-f2NwNWJIk4nPJs0Dd/pubchart?oid=474009640&format=interactive"></iframe>
 		    </div>
+		</body>
+
+
 		<div class="space"></div>
 
 		<!-- section end -->
