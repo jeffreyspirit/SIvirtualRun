@@ -1,42 +1,51 @@
-# Next.Js Website Tutorial: Create a Stunning Portfolio Website with Nextjs, Tailwind CSS and Framer-motion🌟
+# SI Virtual Run Project (First Siriraj Virtual Run)
 
-![GitHub stars](https://img.shields.io/github/stars/codebucks27/Next.js-Developer-Portfolio-Starter-Code?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp;
-![GitHub forks](https://img.shields.io/github/forks/codebucks27/Next.js-Developer-Portfolio-Starter-Code?style=social&logo=KashFlow&maxAge=3600)&nbsp;&nbsp;
-![Github Followers](https://img.shields.io/github/followers/codebucks27.svg?style=social&label=Follow)&nbsp;&nbsp;<br />
+This project is a website designed for the **First Siriraj Virtual Run**, a virtual running event organized by Siriraj Running Club, Thailand.
+Website/Front End/Back End/ Appsheet designed and coded by @jeffreyspirit
 
-This repository contains starter code for Portfolio website created using NextJs. <br />
+## Event Description 
 
-For Demo and Final Code checkout following link👇: <br />
-[Nextjs Portfolio Website](https://devdreaming.com//videos/nextjs-tutorial-build-portfolio-tailwind-css-framer-motion#code-links) <br />
-
-If you want to learn how to create it please follow below tutorial👇: <br />
-https://youtu.be/Yw7yWHigGKI <br />
-[![YouTube Video Views](https://img.shields.io/youtube/views/Yw7yWHigGKI?style=social)](https://youtu.be/Yw7yWHigGKI)<br />
-
-### Images of The Portfolio Website:
-
-![Nextjs Portfolio Website](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/home-light-desktop.png)
-![Nextjs Portfolio Website Dark Mode](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/home-dark-desktop.png)
-![Next.js Portfolio Website](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/about-light-desktop.png)
-![Next js Portfolio Website](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/projects-dark-desktop.png)
-![Portfolio Website In Next.js](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/articles-light-desktop.png)
-![Responsive Portfolio Website In Nextjs](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/about-light-mobile.png)
-![Responsive Portfolio Website In Next js](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/projects-light-mobile.png)
-![Mobile Responsive Portfolio Website In Next.js](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/articles-light-mobile.png)
+Welcome to SI Virtual Run by SI Running Club
+The mission of the SI Running Club is to To Create space for runners of all kinds to express themselves, To Promote physical and mental health of Siriraj medical students, and To Foster relationship between club members.
 
 
-### Resources Used in This Project
+Registraion Open: 27 May - 30 June 2567
+Running Range: 9 June - 31 August 2567
 
-- Profile image in the home page created by using https://www.midjourney.com/ tool.
-- Profile image in the about page by [Albert Dera](https://unsplash.com/@albertdera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) 
-on [Unsplash](https://unsplash.com/photos/ILip77SbmOE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
-- Fonts from https://fonts.google.com/ <br />
-- Icons from https://iconify.design/ <br />
-- LightBulb Svg from https://lukaszadam.com/illustrations <br />
+## Knowledge Used
 
-### External Libraries used in this project:
+* **HTML5:** Core structure and content of the website.
+* **CSS3:** Styling and visual presentation.
+* **JavaScript:** Interactivity and dynamic elements.
+* **Bootstrap:** Responsive framework for layout and components.
 
-- [framer-motion](https://www.framer.com/motion/) <br />
-- [Tailwind css](https://tailwindcss.com/) <br />
+## Project Structure
 
+The project is organized into the following folders:
+
+* **bootstrap:** Contains Bootstrap framework files.
+* **css:** Custom CSS styles for the website.
+* **fonts:** Houses any custom fonts used in the design.
+* **images:** Stores website images (banners, logos, event-related images, etc.).
+* **js:** Includes JavaScript files for website functionality.
+* **plugins:** Contains third-party plugins (if any) used in the project.
+* **index.html:** The main HTML file of the website.
+
+## Credits
+* **Design and developed:** WebThemez (http://webthemez.com)
+* **Photos used in template:** Unsplash (http://unsplash.com)
+* **Framework:** Bootstrap (http://getbootstrap.com)
+
+## Getting Started 
+**Prerequisites:**
+
+* A code editor or IDE (e.g., Visual Studio Code, Sublime Text)
+* Basic understanding of HTML, CSS, and JavaScript (recommended)
+
+**Instructions:**
+
+1. Clone or download the project repository.
+2. Open the project in your preferred code editor.
+3. (If using a local server) Start a local development server (e.g., using Python's SimpleHTTPServer or a tool like Live Server).
+4. Open `index.html` in your web browser to view the website.
 
